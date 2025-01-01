@@ -1,0 +1,57 @@
+@font-face {
+  font-family: BespokeExtraBold;
+  src: url(../public/fonts/BespokeStencil_Complete/Fonts/OTF/BespokeStencil-Extrabold.otf);
+}
+
+@font-face {
+  font-family: SpaceGroteskVarible;
+  src: url(../public/fonts/SpaceGrotesk_Complete/Fonts/TTF/SpaceGrotesk-Variable.ttf);
+}
+
+:root{
+  /*COLORS PORTFOLIO*/
+  --color50: #F7F5F4;
+  --color100: #EAE6E3;
+  --color200: #d7cfca;
+  --color300: #baaca6;
+  --color400: #96837a;
+  --color500: #7b695f;
+  --color600: #695b51;
+  --color700: #584e46;
+  --color800: #4c443e;
+  --color900: #423c37;
+  --color950: #0a0908;
+
+  --colorProyects-1: #B3D8A4;
+  --colorProyects-2: #FF7D1A;
+
+  /*FONTS SIZES*/
+  --size-preset-1: 44px;
+  --size-preset-2: 28px;
+  --size-preset-3: 18px;
+  --size-preset-4: 16px;
+  --size-preset-5: 14px;
+
+  /*FONTS FAMILY*/
+  --font-family-1: 'BespokeExtraBold', sans-serif;
+  --font-family-2: 'SpaceGroteskVarible', sans-serif;
+
+  /*SPACING*/
+  --spacing-1: 24px;
+  --spacing-2: 16px;
+  --spacing-3: 12px;
+  --spacing-4: 8px;
+  --spacing-5: 6px;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+
+  body{
+    height: 100%;
+    background-color: var(--color950);
+  }
+}

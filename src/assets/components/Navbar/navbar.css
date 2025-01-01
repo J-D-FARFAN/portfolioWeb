@@ -1,0 +1,70 @@
+@import url(../../../index.css);
+
+.contentAll--navbarPortfolio{
+    width: 708px;
+    height: 55px;
+    border: 2px solid var(--color200);
+    border-radius: 999px;
+    background: linear-gradient(90deg, var(--color400) 0%, var(--color800) 100%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    filter: drop-shadow(0px 4px 5px hsl(26, 14%, 90%, 25%));
+    font-family: var(--font-family-2);
+
+    .content__infoPerson{
+        display: flex;
+        align-items: center;
+        gap: var(--spacing-2);
+
+        .bx-image-avatar{
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+            overflow: hidden;
+
+            .image-avatar{width: 100%;}
+        }
+
+        .infoPerson__name__profession{
+            display: flex;
+            align-items: center;
+            gap: var(--spacing-5);
+
+            .name{
+                font-weight: bold;
+                color: var(--color50);
+                font-size: var(--size-preset-4);
+            }
+
+            .circle{
+                width: 5px;
+                height: 5px;
+                border-radius: 50%;
+                background-color: var(--color200);
+            }
+
+            .profession{color: var(--color200); font-size: var(--size-preset-4);}
+        }
+    }
+
+
+    .content__sectionPortfolio--work__contact{
+        display: flex;
+        gap: var(--spacing-2);
+        color: var(--color50);
+
+        .sectionPortfolio--work__contact__item{
+            border-radius: 8px;
+            padding: 0.5rem 0rem;
+            cursor: pointer;
+            transition: .3s ease-in-out;
+
+            &:hover{
+                background-color: var(--color950);
+                padding: 0.5rem 0.8rem;
+            }
+        }
+    }
+}
